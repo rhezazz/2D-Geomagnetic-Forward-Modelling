@@ -54,7 +54,7 @@ for i = 1:nx
         end
     end
 end
-%Calculated gravity response
+%Calculated magnetic response
 V_rs = reshape(V,nb,1);
 dBdz = Kernell*V_rs;
 
